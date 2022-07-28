@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import hero1 from "./assets/images/hero_bg_1.jpg";
 import { NavLink } from "react-router-dom";
 export default function Services() {
   return (
@@ -28,10 +29,10 @@ export default function Services() {
                 role="navigation"
               >
                 <ul className="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                  <li>
+                  <li className="active">
                     <NavLink to="/">Home</NavLink>
                   </li>
-                  <li className="active">
+                  <li>
                     <NavLink to="/about">About us</NavLink>
                     {/* <a href="about.html">About Us</a> */}
                   </li>
@@ -125,6 +126,164 @@ export default function Services() {
           </div>
         </div>
       </header>
+
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + hero1 + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                Our Services
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>Services</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="ocean.html" class="unit-1 text-center">
+                <img
+                  src="assets/images/ocea.png"
+                  alt="Image"
+                  class="img-fluid"
+                />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading">Ocean freight </h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="shipconsolidation.html" class="unit-1 text-center">
+                <img src="assets/images/sc.png" alt="Image" class="img-fluid" />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading">Shipping consolidation</h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="bulkcargo.html" class="unit-1 text-center">
+                <img src="assets/images/bc.png" alt="Image" class="img-fluid" />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading"> Bulk cargo / Break bulk cargo</h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="projectcargo.html" class="unit-1 text-center">
+                <img src="assets/images/pl.png" alt="Image" class="img-fluid" />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading"> Project Cargo</h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="shipchartering.html" class="unit-1 text-center">
+                <img
+                  src="assets/images/scb.png"
+                  alt="Image"
+                  class="img-fluid"
+                />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading">Ship Chartering & Broking</h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="warehouse.html" class="unit-1 text-center">
+                <img
+                  src="assets/images/ware.png"
+                  alt="Image"
+                  class="img-fluid"
+                />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading">Warehouse & custom brokerage </h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="landtransportation.html" class="unit-1 text-center">
+                <img
+                  src="assets/images/img_3.jpg"
+                  alt="Image"
+                  class="img-fluid"
+                />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading">
+                    Land Transportation And Stuffing{" "}
+                  </h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>{" "}
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="airfreight.html" class="unit-1 text-center">
+                <img
+                  src="assets/images/img_2.jpg"
+                  alt="Image"
+                  class="img-fluid"
+                />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading">Air Freight </h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>{" "}
+            <div class="col-md-6 col-lg-4 mb-4">
+              <a href="customerrelation.html" class="unit-1 text-center">
+                <img src="assets/images/cr.png" alt="Image" class="img-fluid" />
+                <div class="unit-1-text">
+                  <h3 class="unit-1-heading"> customer relations </h3>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <footer class="site-footer">
         <div class="container">

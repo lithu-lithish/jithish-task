@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import ret from "./assets/images/ret.png";
+import hero4 from "./assets/images/hero_bg_4.jpg";
 import { NavLink } from "react-router-dom";
 export default function Retail() {
   return (
@@ -28,10 +30,10 @@ export default function Retail() {
                 role="navigation"
               >
                 <ul className="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                  <li>
+                  <li className="active">
                     <NavLink to="/">Home</NavLink>
                   </li>
-                  <li className="active">
+                  <li>
                     <NavLink to="/about">About us</NavLink>
                     {/* <a href="about.html">About Us</a> */}
                   </li>
@@ -125,6 +127,65 @@ export default function Retail() {
           </div>
         </div>
       </header>
+
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + ret + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                RETAIL
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>Industries</span> <span class="mx-2">&gt;</span>{" "}
+                <span> RETAIL</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/ret.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <p>
+                The retail industry is demanding and competitive. We at MEK are
+                designed to help you meet those challenges while achieving your
+                goals across sales channels.
+                <br />
+                <br />
+                It is critical and important for you to manage the right
+                inventory to the right market at the right time to be on top of
+                your business. Failing to manage the delivery and metrics will
+                see your customers flocking to your competitors. MEK deploys
+                dedicated team with vertical experience in FMCG trade to help
+                you add value to your customers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
 
       <footer class="site-footer">
         <div class="container">

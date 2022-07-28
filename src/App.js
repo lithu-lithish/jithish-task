@@ -58,7 +58,7 @@ function App() {
           <Route path="/contact">
             <Route index element={<Contact />} />
           </Route>
-          <Route path="/customerRel">
+          <Route path="/customerrel">
             <Route index element={<CustomerRel />} />
           </Route>
           <Route path="/fashion">

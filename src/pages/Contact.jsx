@@ -34,7 +34,7 @@ export default function Contact() {
                     <li>
                       <NavLink to="/">Home</NavLink>
                     </li>
-                    <li className="active">
+                    <li>
                       <NavLink to="/about">About us</NavLink>
                       {/* <a href="about.html">About Us</a> */}
                     </li>
@@ -109,7 +109,7 @@ export default function Contact() {
                       {/* <a href="industries.html">Industries</a> */}
                     </li>
 
-                    <li>
+                    <li className="active">
                       <NavLink to="/contact">Contact</NavLink>
                       {/* <a href="contact.html">Contact</a> */}
                     </li>

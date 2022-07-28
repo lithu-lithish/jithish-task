@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import pl from "./assets/images/pl.png";
+import hero4 from "./assets/images/hero_bg_4.jpg";
 import { NavLink } from "react-router-dom";
 export default function ProjCargo() {
   return (
@@ -126,6 +128,75 @@ export default function ProjCargo() {
         </div>
       </header>
 
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + pl + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                Project Cargo
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>service</span> <span class="mx-2">&gt;</span>{" "}
+                <span> Project Cargo</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/pl.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <div class="text-left pb-1 border-primary mb-4">
+                <h2 class="text-primary">
+                  {" "}
+                  “ We get the project cargo sound and safe “
+                </h2>
+              </div>
+              <p>
+                We make imaginary a reality into the existence. From the past
+                and meticulous efforts in positioning the heavy structure and
+                high valued projects, it is our forte in coordinating the
+                project cargo .And we the team on an extended note ,try to make
+                every aspect with consistent planning and execution specialized
+                in <br />
+                Over Dimensional Cargos (ODC) / Out of Gauge Cargos (OOG)
+                <br />
+                Turnkey projects <br />
+                Heavy Lift cargos/ UC loading
+                <br />
+                <br />
+                <b>Networked with transport fleet</b> <br />
+                <b>Precision in handling</b>
+                <br />
+                <b> Timely service</b> <br />
+                <b>Technical assistance</b> <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
       <footer class="site-footer">
         <div class="container">
           <div class="row">

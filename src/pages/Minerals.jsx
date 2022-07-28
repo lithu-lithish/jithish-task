@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import min from "./assets/images/min.png";
+import hero4 from "./assets/images/hero_bg_4.jpg";
 import { NavLink } from "react-router-dom";
 export default function Minerals() {
   return (
@@ -125,6 +127,69 @@ export default function Minerals() {
           </div>
         </div>
       </header>
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + min + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                {" "}
+                MINERALS
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>Industries</span> <span class="mx-2">&gt;</span>{" "}
+                <span> MINERALS</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/min.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <div class="text-left pb-1 border-primary mb-4">
+                <h2 class="text-primary">
+                  {" "}
+                  High-value treatment for high-tech products
+                </h2>
+              </div>
+              <p>
+                At MEK we provide logistics and transport needs for mining
+                depending on the mine location and the supply chain complexity.
+                <br />
+                <br /> The mining industry requires comprehensive logistics
+                services and solutions to enable smooth transportation of
+                materials from mines, processing plants and inventories to
+                railways, ports, ships, and finally to the destination markets.
+                <br />
+                <br /> Mining logistics solutions and services include:
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
 
       <footer class="site-footer">
         <div class="container">

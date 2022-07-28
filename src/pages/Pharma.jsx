@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import pha from "./assets/images/pha.png";
+import hero4 from "./assets/images/hero_bg_4.jpg";
 import { NavLink } from "react-router-dom";
 export default function Pharma() {
   return (
@@ -125,6 +127,66 @@ export default function Pharma() {
           </div>
         </div>
       </header>
+
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + pha + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                PHARMA
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>Industries</span> <span class="mx-2">&gt;</span>{" "}
+                <span> PHARMA</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/pha.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <p>
+                At MEK, we exercise Good Distribution Practices for
+                pharmaceuticals with customized and compliant plans that are
+                tightly controlled throughout the supply chain. We set globally
+                consistent criteria for each movement and monitor the quality of
+                the operational services until each shipment reaches the end of
+                the supply chain.
+                <br />
+                <br /> Close partnerships, consistent global execution, targeted
+                communications, and deep industry expertise allow MEK logistics
+                specialists to successfully navigate through the complexities of
+                the healthcare industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
 
       <footer class="site-footer">
         <div class="container">

@@ -32,7 +32,7 @@ export default function Industries() {
                   <li>
                     <NavLink to="/">Home</NavLink>
                   </li>
-                  <li className="active">
+                  <li>
                     <NavLink to="/about">About us</NavLink>
                     {/* <a href="about.html">About Us</a> */}
                   </li>
@@ -102,7 +102,7 @@ export default function Industries() {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  <li className="active">
                     <NavLink to="/industries">Industries</NavLink>
                     {/* <a href="industries.html">Industries</a> */}
                   </li>

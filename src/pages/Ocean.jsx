@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import hero4 from "./assets/images/hero_bg_4.jpg";
+import pixel from "./assets/images/pexels-tom-fisk-3856433.jpg";
 import { NavLink } from "react-router-dom";
+
 export default function Ocean() {
   return (
     <div class="site-wrap">
@@ -125,6 +128,79 @@ export default function Ocean() {
           </div>
         </div>
       </header>
+
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + pixel + ")" }}
+        //  style="background-image: url(images/pexels-tom-fisk-3856433.jpg);"
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                Ocean Freight
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>service</span> <span class="mx-2">&gt;</span>{" "}
+                <span>Ocean Freight</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/ocea.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <div class="text-left pb-1 border-primary mb-4">
+                <h2 class="text-primary">
+                  {" "}
+                  “We get your consignment safely afloat and reachable “
+                </h2>
+              </div>
+              <p>
+                As a frontier in shipping service , we give the seamless
+                movement of cargos between the serving major and minor ports
+                across the globe Also, we provide the tailored made service on
+                the client’s requirements at their convenience <br />
+                And our finest and technical knowledge about shipping would have
+                an edge over in the service rendered in a hassle-free manner{" "}
+                <br />
+                <br />
+                We have our strong team base and supporting network in Middle
+                East , Far East ,Europe and USA .<br />
+                <br />
+                <b>Better freight rates</b> <br />
+                <b>Service across the globe</b>
+                <br />
+                <b>Any product any where</b> <br />
+                <b>24*7 service</b>
+                <br />
+                <b>Renowned carriers’ partnership</b> <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
 
       <footer class="site-footer">
         <div class="container">

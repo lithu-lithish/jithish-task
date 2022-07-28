@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import tech from "./assets/images/tech.png";
+import hero4 from "./assets/images/hero_bg_4.jpg";
 import { NavLink } from "react-router-dom";
 export default function Tech() {
   return (
@@ -125,6 +127,77 @@ export default function Tech() {
           </div>
         </div>
       </header>
+
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + tech + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                {" "}
+                TECHNOLOGY
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>Industries</span> <span class="mx-2">&gt;</span>{" "}
+                <span> TECHNOLOGY</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/tech.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <div class="text-left pb-1 border-primary mb-4">
+                <h2 class="text-primary">
+                  {" "}
+                  High-value treatment for high-tech products
+                </h2>
+              </div>
+              <p>
+                High-tech electronics products play in a very crowded and
+                competitive marketplace. When it comes to logistics, the need
+                for speed, on-time delivery, and security are paramount.
+                <br />
+                <br /> High Tech & Electronics are one of the fastest shipped
+                industry across the world. From mobiles to motors it is a
+                crowded market place. Speed, Efficiency and Security are the
+                virtues that differentiates one from the competition.
+                <br />
+                <br /> With the emergence of Internet of Things and Connected
+                Devices, the demand for Hi-tech equipment and devices has
+                increased. Strict government regulations make Hi-Tech Logistics
+                the most intricate. Choosing the right logistics partner like
+                MEK is key to your performance. We have perfected the art of
+                Hi-Tech logistics and also Reverse Logistics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
 
       <footer class="site-footer">
         <div class="container">

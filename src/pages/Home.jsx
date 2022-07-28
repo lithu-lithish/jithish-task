@@ -2,6 +2,8 @@ import React from "react";
 import newGif from "./Gifs/new1.gif";
 import logo from "./assets/images/logo.png";
 import img2 from "./assets/images/img_2.jpg";
+import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
 
@@ -22,9 +24,12 @@ export default function () {
             <div class="row align-items-center">
               <div class="col-11 col-xl-2">
                 <h1 class="mb-0">
-                  <a href="index.html" class="text-white h2 mb-0">
+                  <NavLink to="/" class="text-white h2 mb-0">
                     <img style={{ height: "70px" }} src={logo} />
-                  </a>
+                  </NavLink>
+                  {/* <a href="index.html" class="text-white h2 mb-0">
+                    <img style={{ height: "70px" }} src={logo} />
+                  </a> */}
                 </h1>
               </div>
               <div class="col-12 col-md-10 d-none d-xl-block">
@@ -33,87 +38,81 @@ export default function () {
                   role="navigation"
                 >
                   <ul className="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                    <li>
-                      <NavLink to="/">Home</NavLink>
-                    </li>
                     <li className="active">
-                      <NavLink to="/about">About us</NavLink>
-                      {/* <a href="about.html">About Us</a> */}
+                      <a href="/">Home</a>
+                    </li>
+                    <li>
+                      {/* <NavLink to="/about">About us</NavLink> */}
+                      <a href="/about">About Us</a>
                     </li>
                     <li className="has-children">
-                      <NavLink to="/services">Services</NavLink>
-                      {/* <a href="services.html">Services</a> */}
+                      {/* <NavLink to="/services">Services</NavLink> */}
+                      <a href="services">Services</a>
                       <ul className="dropdown">
                         <li className="has-children">
                           <a href="#">Marine</a>
                           <ul className="dropdown">
                             <li>
-                              <NavLink to="/ocean">Ocean Freight</NavLink>
-                              {/* <a href="ocean.html">Ocean Freight</a> */}
+                              {/* <NavLink to="/ocean">Ocean Freight</NavLink> */}
+                              <a href="/ocean">Ocean Freight</a>
                             </li>
                             <li>
-                              <NavLink to="/shipconsol">
+                              {/* <NavLink to="/shipconsol">
                                 Shipping consolidation
-                              </NavLink>
-                              {/* <a href="shipconsolidation.html">
-                                  Shipping Consolidation
-                                </a> */}
+                              </NavLink> */}
+                              <a href="/shipconsol">Shipping Consolidation</a>
                             </li>
                             <li>
-                              <NavLink to="/bulkcargo">
+                              {/* <NavLink to="/bulkcargo">
                                 {" "}
                                 Bulk & Break Bulk Cargo
-                              </NavLink>
-                              {/* <a href="bulkcargo.html">
-                                  Bulk & Break Bulk Cargo
-                                </a> */}
+                              </NavLink> */}
+                              <a href="/bulkcargo">Bulk & Break Bulk Cargo</a>
                             </li>
                             <li>
-                              <NavLink to="/shipcharter">
+                              {/* <NavLink to="/shipcharter">
                                 Ship chartering & Bookiing
-                              </NavLink>
-                              {/* <a href="shipchartering.html">
-                                  Ship Chartering & Broking
-                                </a> */}
+                              </NavLink> */}
+                              <a href="/shipcharter">
+                                Ship Chartering & Broking
+                              </a>
                             </li>
                             <li>
-                              <NavLink to="/warehouse">
+                              {/* <NavLink to="/warehouse">
                                 Warehouse & Custom Brokerage
-                              </NavLink>
-                              {/* <a href="warehouse.html">
-                                  Warehouse & Custom Brokerage
-                                </a> */}
+                              </NavLink> */}
+                              <a href="/warehouse">
+                                Warehouse & Custom Brokerage
+                              </a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <NavLink to="/airfreight">Air</NavLink>
-                          {/* <a href="airfreight.html">Air</a> */}
+                          {/* <NavLink to="/airfreight">Air</NavLink> */}
+                          <a href="/airfreight">Air</a>
                         </li>
                         <li>
-                          <NavLink to="/landtransport">Land</NavLink>
-                          {/* <a href="landtransportation.html">Land</a> */}
+                          {/* <NavLink to="/landtransport">Land</NavLink> */}
+                          <a href="/landtransport">Land</a>
                         </li>
                         <li>
-                          <NavLink to="/projcargo">Project Cargo</NavLink>
-                          {/* <a href="projectcargo.html">Project Cargo</a> */}
+                          {/* <NavLink to="/projcargo">Project Cargo</NavLink> */}
+                          <a href="/projcargo">Project Cargo</a>
                         </li>
                         <li>
-                          <NavLink to="/customerRel">Customer Relation</NavLink>
-                          {/* <a href="customerrelation.html">
-                              Customer Relation
-                            </a> */}
+                          {/* <NavLink to="/customerRel">Customer Relation</NavLink> */}
+                          <a href="/customerrel">Customer Relation</a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <NavLink to="/industries">Industries</NavLink>
-                      {/* <a href="industries.html">Industries</a> */}
+                      {/* <NavLink to="/industries">Industries</NavLink> */}
+                      <a href="/industries">Industries</a>
                     </li>
 
                     <li>
-                      <NavLink to="/contact">Contact</NavLink>
-                      {/* <a href="contact.html">Contact</a> */}
+                      {/* <NavLink to="/contact">Contact</NavLink> */}
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </nav>
@@ -123,9 +122,16 @@ export default function () {
                 class="d-inline-block d-xl-none ml-md-0 mr-auto py-3"
                 style={{ position: "relative", top: "3px" }}
               >
-                <a href="#" class="site-menu-toggle js-menu-toggle text-white">
+                <Nav.Link
+                  href="/"
+                  class="site-menu-toggle js-menu-toggle text-white"
+                >
+                  {" "}
                   <span class="icon-menu h3"></span>
-                </a>
+                </Nav.Link>
+                {/* <a href="#" class="site-menu-toggle js-menu-toggle text-white">
+                  <span class="icon-menu h3"></span>
+                </a> */}
               </div>
             </div>
           </div>

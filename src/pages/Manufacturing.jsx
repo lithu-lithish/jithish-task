@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import manu from "./assets/images/manu.png";
+import hero4 from "./assets/images/hero_bg_4.jpg";
 import { NavLink } from "react-router-dom";
 export default function Manufacturing() {
   return (
@@ -126,6 +128,63 @@ export default function Manufacturing() {
         </div>
       </header>
 
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        // style="background-image: url(images/manu.png);"
+        style={{ backgroundImage: "url(" + manu + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                MANUFACTURING
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>Industries</span> <span class="mx-2">&gt;</span>{" "}
+                <span> MANUFACTURING</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/manu.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <p>
+                From sourcing materials to shipping finished goods to customers,
+                and every step in between, at MEK we understand what it takes to
+                keep things humming in the manufacturing world.
+                <br /> With our global network of experts in mature and emerging
+                manufacturing centers, we design comprehensive solutions that
+                optimize transportation flows across sites, using all modes, to
+                harness the full critical mass of the enterprise—driving out
+                costs while achieving service levels.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+        // style="background-image: url('images/hero_bg_4.jpg');"
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
       <footer class="site-footer">
         <div class="container">
           <div class="row">

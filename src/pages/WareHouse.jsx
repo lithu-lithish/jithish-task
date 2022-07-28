@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import ware from "./assets/images/ware.png";
+import hero4 from "./assets/images/hero_bg_4.jpg";
 import { NavLink } from "react-router-dom";
 export default function WareHouse() {
   return (
@@ -125,6 +127,64 @@ export default function WareHouse() {
           </div>
         </div>
       </header>
+
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + ware + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                Warehouse & custom brokerage
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>service</span> <span class="mx-2">&gt;</span>{" "}
+                <span>Warehouse & custom brokerage</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/ware.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <div class="text-left pb-1 border-primary mb-4">
+                <h2 class="text-primary"> “ safety and swiftness assured “</h2>
+              </div>
+              <p>
+                We also understand the need of sturdy documentation and dynamic
+                need of storage in real time scenario ,so we partnered with the
+                world class warehouse service providers and custom housing
+                agents for streamlined flow of cargos . We get documentation
+                done , calculate duties and other taxes on behalf of the clients
+                , arrange for inspections required by governmental agencies, and
+                arrange for timey delivery.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
 
       <footer class="site-footer">
         <div class="container">

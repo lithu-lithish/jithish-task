@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
+import hero1 from "./assets/images/hero_bg_1.jpg";
+import hero4 from "./assets/images/hero_bg_4.jpg";
 import { NavLink } from "react-router-dom";
 export default function ShipCharter() {
   return (
@@ -125,6 +127,69 @@ export default function ShipCharter() {
           </div>
         </div>
       </header>
+
+      <div
+        class="site-blocks-cover inner-page-cover overlay"
+        style={{ backgroundImage: "url(" + hero1 + ")" }}
+        data-aos="fade"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+              <h1 class="text-white font-weight-light text-uppercase font-weight-bold">
+                Ship Chartering & Broking
+              </h1>
+              <p class="breadcrumb-custom">
+                <a href="index.html">Home</a> <span class="mx-2">&gt;</span>{" "}
+                <span>service</span> <span class="mx-2">&gt;</span>{" "}
+                <span> Ship Chartering & Broking</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+              <img
+                src="assets/images/scb.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 order-md-1" data-aos="fade">
+              <div class="text-left pb-1 border-primary mb-4">
+                <h2 class="text-primary">
+                  {" "}
+                  “ We cater your needs of shipping service with diligence “
+                </h2>
+              </div>
+              <p>
+                Chartering a great deal of our brand for the large volume and
+                revolving volume of shipments It is our great strength in
+                stemming the vessel with great deal with absolute expertise and
+                command .<br />
+                And we work on perplexed factors and come up with the fair
+                solutions.
+                <br />
+                Also assure the best of requirements in want of factor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="site-section bg-image overlay"
+        style={{ backgroundImage: "url(" + hero4 + ")" }}
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-5"></div>
+        </div>
+      </div>
 
       <footer class="site-footer">
         <div class="container">
